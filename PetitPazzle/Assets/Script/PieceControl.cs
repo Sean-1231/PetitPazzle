@@ -391,7 +391,7 @@ public class PieceControl : MonoBehaviour {
 		}
 	}
 
-	// 将鼠标的位置，变换为3D空间内的世界坐标
+	// （方法）将鼠标的位置，变换为3D空间内的世界坐标
 	//
 	// ・穿过鼠标光标和摄像机位置的直线
 	// ・ 用于判定是否和地面碰撞的平面
@@ -426,7 +426,7 @@ public class PieceControl : MonoBehaviour {
 		return(ret);
 	}
 
-	// 目前的距离是否可以吸附到对应位置上
+	// （方法）目前的距离是否可以吸附到对应位置上
 	private bool	is_in_snap_range()
 	{
 		bool	ret = false;
